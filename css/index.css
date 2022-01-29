@@ -1,0 +1,67 @@
+p{
+    font-family: 'Poppins', sans-serif;
+  }
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbig{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 200px;
+    font-size: 20px;
+    
+}
+
+.about{
+   color: #F19966;
+    text-decoration: underline #F19966  3px;
+    position: sticky;
+}
+
+.design{
+    position: sticky;
+}
+
+.contact{
+    position: sticky;
+}
+
+.resume{
+    position: sticky;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+}
+
+.dBig{
+    display: flex;
+    
+}
+
+.nameBig{
+    font-size: 100px;
+}
+
+.dBig{
+    font-size: 50px ;
+    padding-left: 40px;
+}
+
+.logo{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.boxBigb{
+    display: flex;
+}
+
+.intro{
+    display: flex;
+}
