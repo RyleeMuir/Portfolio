@@ -1,3 +1,4 @@
+/*FONT*/
 p{
     font-family: 'Poppins', sans-serif;
   }
@@ -5,13 +6,15 @@ p{
 h1{
     font-family: 'Poppins', sans-serif;
 }
-
+/*NAV BAR */
 .navbig{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     padding-top: 200px;
     font-size: 20px;
+    position:fixed;
+    align-items: flex-end;
+    
     
 }
 
@@ -33,6 +36,8 @@ h1{
     position: sticky;
 }
 
+
+/*HOME PAGE*/
 .intro{
     display:flex;
     flex-direction: column;
@@ -62,6 +67,85 @@ h1{
     display: flex;
 }
 
-.intro{
+/*WORK PAGE*/
+/*PROJECT 1*/
+.projOne{
+    display:flex;
+}
+
+.wc_img{
+    height: 600px;
+    border: solid 1.75px black;
+    
+}
+
+.sideG_one{
+    padding: 300px 200px;
+}
+
+.recentW{
+    font-size: 50px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+#mad_one{
+    font-size: 50px;
+}
+
+.wc{
+    font-size: 20px;
+}
+
+
+
+.projTwo{
     display: flex;
 }
+/*ABOUT PAGE*/
+.page_container{
+    display:flex;
+    padding-left: 50px;
+}
+
+.top_text{
+    display:flex;
+    flex-direction: column; 
+    padding: 30px;
+}
+
+.bot_text{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.abt{
+    font-size: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+/*CONTACT PAGE*/
+#last_page{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.last_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.thanks{
+    font-size: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
